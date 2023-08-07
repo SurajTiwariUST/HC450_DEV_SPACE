@@ -15,11 +15,11 @@
     "@sap/cds-dk": "^7"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds run"
   },
   "cds": {
     "requires": {
-      "db": "hana"
+      "db": "sql"
     }
   }
 }
